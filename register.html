@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zero Marketplace</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="snowfall.js"></script>
+        <script src="activebox.js"></script>
+        <script src="theme-switch.js"></script>
+        <script src="menu-animation.js"></script>
+        <script src="cart.js"></script>
+        <li><a href="cart.html" class="menu-item">Cart</a></li>
+    </head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-brand">
+                <img src="Zero Market.png" alt="Zero Marketplace Logo">
+                <h1>Zero Marketplace</h1>
+            </div>
+            <div class="nav-auth">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="menu-item">Home</a></li>
+                    <li><a href="products.html" class="menu-item">Products</a></li>
+                    <li><a href="about.html" class="menu-item">About Us</a></li>
+                    <li><a href="contact.html" class="menu-item">Contact</a></li>
+                    <li><a href="support.html" class="menu-item">Support</a></li>
+                    <li><a href="invite.html" class="menu-item">Invite</a></li>
+                    <li><a href="ownerinfo.html" class="menu-item">Owner Info</a></li>
+                    <li><a href="#" class="menu-item cart-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                            <path d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M19 5H6.5l-.58-2.32A1 1 0 0 0 5 2H2v2h2.5l1.9 7.63 1.69 6.76A2 2 0 0 0 10.07 20h7.86a2 2 0 0 0 1.88-1.34l2-6a2 2 0 0 0-.04-1.66L20.5 6h-2.03zM10 18a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5zm4 0a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5z"/>
+                        </svg>
+                    </a></li>
+                    <li><a href="login.html" class="auth-button">Login</a></li>
+                    <li><a href="register.html" class="auth-button">Register</a></li>
+                </ul>
+            </div>
+            <div class="theme-switch">
+                <input type="checkbox" id="theme-toggle" class="theme-toggle">
+                <label for="theme-toggle" class="theme-label"></label>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="middle-container">
+            <img src="Zero Market.png" alt="Zero Marketplace Logo" class="logo">
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <h2>Register</h2>
+                <form>
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit" class="cta-button">Register</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Zero Marketplace. All rights reserved.</p>
+    </footer>
+</body>
+</html>
